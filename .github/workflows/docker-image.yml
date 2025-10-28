@@ -49,7 +49,7 @@ jobs:
         with:
           registry: crpi-fdk66ffogrwgtjx8.cn-hangzhou.personal.cr.aliyuncs.com
           username: hi35051855@aliyun.com
-          password: 1111111
+          password: ${{ secrets.ALISECR }}
 
       - name: Set lowercase repository owner
         id: lowercase
@@ -109,7 +109,7 @@ jobs:
         with:
           registry: crpi-fdk66ffogrwgtjx8.cn-hangzhou.personal.cr.aliyuncs.com
           username: hi35051855@aliyun.com
-          password: 1111111
+          password: ${{ secrets.ALISECR }}
 
       - name: Set lowercase repository owner
         id: lowercase
