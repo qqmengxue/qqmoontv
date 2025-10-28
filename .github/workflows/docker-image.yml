@@ -49,7 +49,7 @@ jobs:
         with:
           registry: crpi-fdk66ffogrwgtjx8.cn-hangzhou.personal.cr.aliyuncs.com
           username: hi35051855@aliyun.com
-          password: ${{ secrets.GITHUB_TOKEN }}
+          password: test123456
 
       - name: Set lowercase repository owner
         id: lowercase
